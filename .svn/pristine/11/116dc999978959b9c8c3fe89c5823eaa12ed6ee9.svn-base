@@ -1,0 +1,14 @@
+********************************
+* Construction de l'exécutable *
+********************************
+Le plus simple est d'ouvrir le fichier Securif.sln avec Visual Studio 2005, puis de lancer la construction
+=> Menu Générer / Générer la solution.
+
+******************
+*
+* Les exécutables *
+*******************
+Chaque protocole génère une DLL. Cette DLL est automatiquement mise dans le dossier DLL à la racine de la solution.
+L'exécutable se trouve dans dans le dossier BIN à la racine de la solution. C'est le fichier Vue.exe qu'il faut lancer.
+
+

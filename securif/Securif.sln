@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vue", "Vue\Vue.csproj", "{176EBBB8-BA8F-48C5-A661-27BD6F2FFC58}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel", "Kernel\Kernel.csproj", "{8B50FE83-E490-43A5-95A3-74ED411D96FE}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stream", "Stream\Stream.csproj", "{EE1A02E8-0908-41DF-A3F7-78196E72838F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_TCP_PUSH", "Video_TCP_PUSH\Video_TCP_PUSH.csproj", "{FC14EFAB-0483-4BE1-BCED-99B45FB21590}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_UDP_PUSH", "Video_UDP_PUSH\Video_UDP_PUSH.csproj", "{C00E815E-9565-416D-84C5-D29851F4E1E7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_TCP_PULL", "Video_TCP_PULL\Video_TCP_PULL.csproj", "{F5C9F65D-082F-47C3-8C3F-98E48D124C5C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_MCAST_PUSH", "Video_MCAST_PUSH\Video_MCAST_PUSH.csproj", "{E8CC2558-1862-407D-9449-00E0A4CF302A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_UDP_PULL", "Video_UDP_PULL\Video_UDP_PULL.csproj", "{DDE42BAD-E3A7-40C0-9300-750F77A50C25}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{EE1A02E8-0908-41DF-A3F7-78196E72838F} = {EE1A02E8-0908-41DF-A3F7-78196E72838F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{176EBBB8-BA8F-48C5-A661-27BD6F2FFC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176EBBB8-BA8F-48C5-A661-27BD6F2FFC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176EBBB8-BA8F-48C5-A661-27BD6F2FFC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176EBBB8-BA8F-48C5-A661-27BD6F2FFC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B50FE83-E490-43A5-95A3-74ED411D96FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B50FE83-E490-43A5-95A3-74ED411D96FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B50FE83-E490-43A5-95A3-74ED411D96FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B50FE83-E490-43A5-95A3-74ED411D96FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1A02E8-0908-41DF-A3F7-78196E72838F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1A02E8-0908-41DF-A3F7-78196E72838F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1A02E8-0908-41DF-A3F7-78196E72838F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1A02E8-0908-41DF-A3F7-78196E72838F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC14EFAB-0483-4BE1-BCED-99B45FB21590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC14EFAB-0483-4BE1-BCED-99B45FB21590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC14EFAB-0483-4BE1-BCED-99B45FB21590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC14EFAB-0483-4BE1-BCED-99B45FB21590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00E815E-9565-416D-84C5-D29851F4E1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00E815E-9565-416D-84C5-D29851F4E1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00E815E-9565-416D-84C5-D29851F4E1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00E815E-9565-416D-84C5-D29851F4E1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C9F65D-082F-47C3-8C3F-98E48D124C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C9F65D-082F-47C3-8C3F-98E48D124C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C9F65D-082F-47C3-8C3F-98E48D124C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C9F65D-082F-47C3-8C3F-98E48D124C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CC2558-1862-407D-9449-00E0A4CF302A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CC2558-1862-407D-9449-00E0A4CF302A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CC2558-1862-407D-9449-00E0A4CF302A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CC2558-1862-407D-9449-00E0A4CF302A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE42BAD-E3A7-40C0-9300-750F77A50C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE42BAD-E3A7-40C0-9300-750F77A50C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE42BAD-E3A7-40C0-9300-750F77A50C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE42BAD-E3A7-40C0-9300-750F77A50C25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
